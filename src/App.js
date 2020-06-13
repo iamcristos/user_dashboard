@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
 
-import Header from './components/header'
+import MainContainer from './components/Container'
 import SideBar from './components/sidebar';
 
 function App() {
   return (
     <div style={{display: 'flex'}}>
      <SideBar />
-     <Header />
+     <MainContainer />
     </div>
   );
 }
