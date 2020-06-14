@@ -5,7 +5,8 @@ import ContainerWrapper from '../utility/ContainerWrapper'
 import MarketDashboard from './MarketInfo';
 import Line from './charts/Line';
 import Revenue from './charts/Line';
-
+import Transactions from './charts/Line';
+import Market from './charts/Market'
 export default function Container() {
     return (
         <MainContainer>
@@ -24,12 +25,12 @@ export default function Container() {
                     </div>
 
                     <div className="divided-width">
-                        {/* <TotalTransactions /> */}
+                        <Transactions />
                     </div>
                     </div>
 
                     <div className="full-width">
-                    {/* <MarketOverview /> */}
+                        <Market />
                     </div>
 
                     <div className="full-width">
