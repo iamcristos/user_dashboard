@@ -6,7 +6,9 @@ import MarketDashboard from './MarketInfo';
 import Line from './charts/Line';
 import Revenue from './charts/Line';
 import Transactions from './charts/Line';
-import Market from './charts/Market'
+import Market from './charts/Market';
+import Invoice from './charts/Invioce';
+
 export default function Container() {
     return (
         <MainContainer>
@@ -34,7 +36,7 @@ export default function Container() {
                     </div>
 
                     <div className="full-width">
-                    {/* <Invoices /> */}
+                        <Invoice />
                     </div>
 
                     <div className="full-width">
