@@ -2,7 +2,8 @@ import React from 'react'
 import MainContainer from './style'
 import Header from './header'
 import ContainerWrapper from '../utility/ContainerWrapper'
-import MarketDashboard from './MarketInfo'
+import MarketDashboard from './MarketInfo';
+import Line from './charts/Line';
 
 export default function Container() {
     return (
@@ -13,7 +14,7 @@ export default function Container() {
                 <section>
                     <div className="left">
                     <div className="full-width">
-                    {/* <LineGraph /> */}
+                    <Line />
                     </div>
 
                     <div className="full-width">
