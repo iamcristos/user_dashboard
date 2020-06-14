@@ -9,6 +9,8 @@ import Transactions from './charts/Line';
 import Market from './charts/Market';
 import Invoice from './charts/Invioce';
 import Event from './charts/Event';
+import Radar from './charts/Radar';
+
 export default function Container() {
     return (
         <MainContainer>
@@ -60,7 +62,8 @@ export default function Container() {
                     </div>
                     </div>
                     <div className="right">
-                    {/* <Radar />
+                    <Radar />
+                    {/* 
                     <AudienceMetric />
                     <World />
                     <World />
