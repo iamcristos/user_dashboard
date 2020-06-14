@@ -8,7 +8,7 @@ import Revenue from './charts/Line';
 import Transactions from './charts/Line';
 import Market from './charts/Market';
 import Invoice from './charts/Invioce';
-
+import Event from './charts/Event';
 export default function Container() {
     return (
         <MainContainer>
@@ -41,21 +41,21 @@ export default function Container() {
 
                     <div className="full-width">
                     <div className="divided-width">
-                        {/* <TotalRevenue /> */}
+                        <Revenue />
                     </div>
 
                     <div className="divided-width">
-                        {/* <TotalTransactions /> */}
+                        <Transactions />
                     </div>
                     </div>
 
                     <div className="full-width">
                     <div className="divided-width">
-                        {/* <RecentEvents /> */}
+                        <Event />
                     </div>
 
                     <div className="divided-width">
-                        {/* <RecentEvents /> */}
+                        <Event />
                     </div>
                     </div>
                     </div>
