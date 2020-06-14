@@ -1,5 +1,7 @@
 import React from 'react'
 import  HeaderSection from './styles';
+import uk from "../../../assets/uk.svg";
+import dp from "../../../assets/dp.jpg";
 export default function Header() {
     return (
         <HeaderSection>
@@ -12,7 +14,7 @@ export default function Header() {
 
         <div className="location">
           <div className="image">
-            <img src='' alt="uk" />
+            <img src={uk} alt="uk" />
           </div>
           <p>United States </p>
           <i className="fas fa-chevron-down"></i>
@@ -25,7 +27,7 @@ export default function Header() {
         <i className="far fa-envelope"></i>
 
         <div className="profile">
-          <img src='' alt="profile" />
+          <img src={dp} alt="profile" />
           <i className="fas fa-chevron-down"></i>
         </div>
       </div>

@@ -4,11 +4,9 @@ import styled from "styled-components";
 import Card from "../../utility/Card";
 
 const EventContainer = styled.div`
-  /* height: 500px; */
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  /* margin: 1.5rem; */
   padding: 1rem;
   h3 {
     width: 100%;

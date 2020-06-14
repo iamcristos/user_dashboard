@@ -1,16 +1,16 @@
 import styled from 'styled-components';
 
-const Left = styled.div`
-    display: flex;
-    justify-content: space-around;
-    width: 45%;
-`;
+// const Left = styled.div`
+//     display: flex;
+//     justify-content: space-around;
+//     width: 45%;
+// `;
 
-const Right = styled.div`
-    display: flex;
-    justify-content: space-around;
-    width: 45%;
-`
+// const Right = styled.div`
+//     display: flex;
+//     justify-content: space-around;
+//     width: 45%;
+// `
 const HeaderSection = styled.div`
   width: 100%;
   display: flex;

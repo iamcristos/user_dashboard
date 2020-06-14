@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-// import ProfileImage from "../../../assets/profile.jpg";
+import dp from "../../assets/dp.jpg";
 
 const StyledProfile = styled.div`
   display: flex;
@@ -37,7 +37,7 @@ const Profile = () => {
   return (
     <StyledProfile>
       <div className="image-container">
-        <img src='' alt="profile" />
+        <img src={dp} alt="profile" />
       </div>
 
       <div className="profile-detail">

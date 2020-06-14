@@ -4,12 +4,17 @@ import Header from './header'
 import ContainerWrapper from '../utility/ContainerWrapper'
 import MarketDashboard from './MarketInfo';
 import Line from './charts/Line';
-import Revenue from './charts/Line';
-import Transactions from './charts/Line';
+import Sales from './charts/Sales';
 import Market from './charts/Market';
 import Invoice from './charts/Invioce';
 import Event from './charts/Event';
 import Radar from './charts/Radar';
+import AveragePrice from './charts/AveragePrice';
+import Metric from './charts/Metric';
+import World from './charts/World';
+import TopPerformers from './charts/TopPerformers';
+import People from './charts/People';
+import Footer from '../Footer/Footer';
 
 export default function Container() {
     return (
@@ -24,16 +29,6 @@ export default function Container() {
                     </div>
 
                     <div className="full-width">
-                    <div className="divided-width">
-                        <Revenue />
-                    </div>
-
-                    <div className="divided-width">
-                        <Transactions />
-                    </div>
-                    </div>
-
-                    <div className="full-width">
                         <Market />
                     </div>
 
@@ -43,12 +38,12 @@ export default function Container() {
 
                     <div className="full-width">
                     <div className="divided-width">
-                        <Revenue />
+                        <Sales />
                     </div>
 
                     <div className="divided-width">
-                        <Transactions />
-                    </div>
+                        <AveragePrice />
+                        </div>
                     </div>
 
                     <div className="full-width">
@@ -62,14 +57,13 @@ export default function Container() {
                     </div>
                     </div>
                     <div className="right">
-                    <Radar />
-                    {/* 
-                    <AudienceMetric />
-                    <World />
-                    <World />
-                    <World />
-                    <World /> */}
+                        <Radar />
+                        <Metric />
+                        <World />
+                        <TopPerformers />
+                        <People />
                     </div>
+                    <Footer />
                 </section>
             </ContainerWrapper>
         </MainContainer>
