@@ -4,6 +4,7 @@ import Header from './header'
 import ContainerWrapper from '../utility/ContainerWrapper'
 import MarketDashboard from './MarketInfo';
 import Line from './charts/Line';
+import Revenue from './charts/Line';
 
 export default function Container() {
     return (
@@ -19,7 +20,7 @@ export default function Container() {
 
                     <div className="full-width">
                     <div className="divided-width">
-                        {/* <TotalRevenue /> */}
+                        <Revenue />
                     </div>
 
                     <div className="divided-width">
